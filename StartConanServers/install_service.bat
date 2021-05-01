@@ -1,0 +1,1 @@
+﻿sc create StartConanExilesServersService binPath= %CD%\StartConanServers.exe

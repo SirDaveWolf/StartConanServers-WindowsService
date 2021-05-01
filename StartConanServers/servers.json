@@ -1,0 +1,9 @@
+﻿{
+  "Servers": [
+    {
+      "ExePath": "",
+      "Params": "-log",
+      "BackupDirectory": ""
+    }
+  ]
+}
