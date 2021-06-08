@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartConanServers", "StartConanServers\StartConanServers.csproj", "{1668F18D-F171-4856-929B-7BA19C331F8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartConanServer.Tests", "StartConanServer.Tests\StartConanServer.Tests.csproj", "{D07FF48E-8AA1-4C46-BF56-5C50F89DE050}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConanServerManager", "ConanServerManager\ConanServerManager.csproj", "{A58FC281-54FB-4178-A182-6BA430B883A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartConanServerTest", "StartConanServerTest\StartConanServerTest.csproj", "{4BF090B6-12C8-4515-ACFA-9D61FCABA886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{1668F18D-F171-4856-929B-7BA19C331F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1668F18D-F171-4856-929B-7BA19C331F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1668F18D-F171-4856-929B-7BA19C331F8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D07FF48E-8AA1-4C46-BF56-5C50F89DE050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D07FF48E-8AA1-4C46-BF56-5C50F89DE050}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D07FF48E-8AA1-4C46-BF56-5C50F89DE050}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D07FF48E-8AA1-4C46-BF56-5C50F89DE050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58FC281-54FB-4178-A182-6BA430B883A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58FC281-54FB-4178-A182-6BA430B883A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58FC281-54FB-4178-A182-6BA430B883A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58FC281-54FB-4178-A182-6BA430B883A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF090B6-12C8-4515-ACFA-9D61FCABA886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF090B6-12C8-4515-ACFA-9D61FCABA886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF090B6-12C8-4515-ACFA-9D61FCABA886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF090B6-12C8-4515-ACFA-9D61FCABA886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,10 @@
 ﻿{
+  "BackupDirectory": "",
   "Servers": [
     {
-      "ExePath": "",
-      "Params": "-log",
-      "BackupDirectory": ""
+      "Name": "Conan2019",
+      "ExePath": "C:\\ConanServer15032019\\ConanSandboxServer.exe",
+      "Params": "-log"
     }
   ]
 }

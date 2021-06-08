@@ -12,31 +12,21 @@ namespace StartConanServers
 {
     public partial class StartConanServersService : ServiceBase
     {
-        private JsonConfig serverConfig; 
+        private ConanServerManager.ConanServerManager _serverManager;
+        private ConanServerManager.Logging.IServerManagerLog _logger;
 
         public StartConanServersService()
         {
+            _logger = new ConanServerManager.Logging.DefaultServerManagerLog();
             InitializeComponent();
-            serverConfig = new JsonConfig();
+            _serverManager = new ConanServerManager.ConanServerManager(new ConanServerManager.ConfigLoader.JsonConanServerConfigLoader(), _logger);
         }
 
         protected override void OnStart(string[] args)
         {
             try
             {
-                serverConfig.Load();
-                foreach(var server in serverConfig.Servers)
-                {
-                    var startInfo = new ProcessStartInfo();
-
-                    startInfo.FileName = server.ExePath;
-                    startInfo.Arguments = server.Params;
-
-                    // TODO Configure Database Backup
-                    // TODO Server Log
-
-                    Process.Start(startInfo);
-                }
+                
             }
             catch(Exception ex)
             {
